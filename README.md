@@ -31,6 +31,12 @@ This project is a simple CLI Blackjack game with
 - If you end your turn without having exceeded 21 points, the dealer will reveal its other card and draw cards until its score exceeds 16 (Or, if it has an ace whose score is 11, it draws until its score exceeds 17)
 - Whoever has the highest score at the end without busting wins.
 
+## Installation and running.
+
+1. Install the Rust language at https://rustup.rs
+2. Clone this repo `git clone https://github.com/steven-na/blackjack.git && cd blackjack`
+3. Run `cargo run --release` in your terminal to start the game.
+
 ## Find a bug?
 
 If you find a bug or would like to help improve the project, submit an issue on this repo. If you submit a PR, make sure to reference the issue you created.
