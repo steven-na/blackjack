@@ -18,11 +18,11 @@ This project is a simple CLI Blackjack game with
 
 ### Rules
 
-- Make a wager with your remaining balance. If you win it is returned in double, if you lose it is forfeitted.
+- Make a wager with your remaining balance. If you win it is paid out 1:1 , if you lose it is forfeited.
 - If, during your turn, your score exceeds 21, you lose. If the dealer's hand exceeds 21, it loses. This is called busting.
 - Your score is all of the values of your cards added up with face cards being worth 10 and aces worth 11 or 1 if your score would exceed 21.
-- The dealer deals 2 cards to you and then to to itself. You can only see the dealer's first card.
-- If your initial hand contains a 10 score card and an ace, you get a "Blackjack" and your bet is returned 3:2 as long as the dealer doesn't also have a Blackjack.
+- The dealer deals 2 cards to you and then to itself. You can only see the dealer's first card.
+- If your initial hand contains a 10 score card and an ace, you get a "Blackjack" and your bet is paid out 3:2 as long as the dealer doesn't also have a Blackjack.
 - Based on your cards and what you can see of the dealer's hand, you have to decide what action to take.
     - Stand: End your turn
     - Hit: Take another card
